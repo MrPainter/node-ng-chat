@@ -1,0 +1,19 @@
+<div class="panel panel-default col-xs-8 col-xs-offset-2">
+    <div class="panel-body">
+        <form class="">
+            <h2 class="block-panel-heading">Sign in</h2>
+            <input type="text" class="form-control credentials" placeholder="Login" required="" autofocus="" ng-model="loginName" />
+            <br/>
+            <input type="password" class="form-control credentials" placeholder="Password" required="" ng-model="password" />
+            <br/>
+            <input type="number" class="form-control credentials" placeholder="Room number" required="" ng-model="room" />
+            <br/>
+            <button class="btn btn-lg btn-primary btn-block" ng-click="login()">Login</button>
+            <br/>
+            <button class="btn btn-lg btn-block" ng-click="register()">Registration</button>
+        </form>
+    </div>
+    <div class="panel-footer" ng-if="error">
+        {{error}}
+    </div>
+</div>

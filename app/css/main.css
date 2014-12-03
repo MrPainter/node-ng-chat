@@ -1,0 +1,81 @@
+body {
+  background-color: #eee;
+}
+
+.block-panel {
+  max-width: 330px;
+  padding: 15px;
+}
+.block-panel .block-panel-heading,
+.block-panel .checkbox,
+.block-panel .message-input
+ {
+  margin-bottom: 10px;
+}
+.block-panel .checkbox {
+  font-weight: normal;
+}
+.block-panel .credentials {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.block-panel .credentials:focus {
+  z-index: 2;
+}
+.block-panel input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.block-panel input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.chat-body {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.chat-body .message{
+  display: block;
+  font-size: 1.2em;
+}
+
+.has-error {
+    border-color: red;
+}
+
+.msg {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: #a6e1ec;
+    padding: 5px;
+    margin: 3px 0;
+}
+
+.msg.self {
+    border: 1px solid dodgerblue;
+}
+
+.msg-body {
+    word-wrap: break-word;
+}
+
+.file-loader {
+    border: 2px dashed #000000;
+    text-align: center;
+    height: 100px;
+}
+
+.file-list {
+    margin-top: 10px;
+}
